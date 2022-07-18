@@ -220,6 +220,7 @@ background: linear-gradient(-90deg,#00b4d8,#ade8f4,#caf0f8);
 background-size: 400% 400%;
 animation: gradient 2s ease infinite;
 color: #2862e0;
+cursor: pointer;
 }
 
 @keyframes gradient {
@@ -232,4 +233,23 @@ color: #2862e0;
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.main{
+
+  margin: 0,0,0,0;
+  position:relative;
+  height:100%;
+  text-align:center;
+  background: linear-gradient(180deg, rgb(255,255,255,1),rgb(255,255,255,0) )
+}
+
+.main h3{
+
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  color: #3a0ca3;
+  text-shadow: 2px 2px 2px 2px blue;
+  font-size: 3rem;
 }
